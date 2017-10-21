@@ -1,5 +1,6 @@
-//Dependências
+#!/usr/bin/env node
 
+//Dependências
 var app = require('../app');
 var http = require('http');
 
