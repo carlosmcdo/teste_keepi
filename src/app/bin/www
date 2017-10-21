@@ -1,9 +1,14 @@
+//Dependências
+
 var app = require('../app');
 var http = require('http');
 
+//Obtendo porta via Express
 var port = process.env.PORT || '3001';
 app.set('port', port);
 
+//Criando HTTP Server
 var server = http.createServer(app);
 
+//Escutando a porta
 server.listen(port);
